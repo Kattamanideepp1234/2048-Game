@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #faf8ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vmin;
+
+
+
+}
+.game-container{
+    text-align: center;
+
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: #776e65;
+    margin-bottom: 5px;
+
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 0 auto 20px;
+    font-size: 20px;
+}
+
+
+.score1{
+    background-color: #bbada0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+.restart-btn{
+    background-color: #bbada0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s
+
+}
+
+.undo-btn{
+    background-color: #bbada0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s
+}
+
+.undo-btn:hover{
+     background-color: #776e65;
+}
+.restart-btn:hover{
+    background-color: #776e65;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4.100px);
+    padding: 10px;
+    background-color: #bbada0;
+    gap:10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.cell{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: #cdc1b4;
+    color: #776e65;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size:35px;
+}
+
+
